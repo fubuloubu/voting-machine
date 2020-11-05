@@ -1,1 +1,1 @@
-web: FLASK_APP=vote.py flask run
+web: gunicorn vote:app
